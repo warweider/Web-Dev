@@ -1,0 +1,40 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 20px;
+    border-radius: 16px;
+    background: rgba(255,255,255,0.6);
+  }
+  
+  .categories {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .cat-btn {
+    padding: 10px 15px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  .cat-btn.active {
+    background: #0f3d1e;
+    color: white;
+    border-color: #0f3d1e;
+  }
+  
+  .welcome {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+  }
