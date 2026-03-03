@@ -1,0 +1,22 @@
+<h1>Albums</h1>
+
+@if (loading) {
+  <p>Loading albums...</p>
+} @else if (error) {
+  <p class="error">{{ error }}</p>
+} @else {
+  <div class="list">
+    @for (a of albums; track a.id) {
+      <a class="item" [routerLink]="['/albums', a.id]">
+        <div class="title">
+          <span class="id">#{{ a.id }}</span>
+          <span>{{ a.title }}</span>
+        </div>
+
+        <button class="delete" type="button" (click)="deleteAlbum(a.id, $event)">
+          Delete
+        </button>
+      </a>
+    }
+  </div>
+}

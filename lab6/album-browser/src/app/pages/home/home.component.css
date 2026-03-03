@@ -1,0 +1,9 @@
+.btn {
+    display: inline-block;
+    padding: 10px 14px;
+    border-radius: 10px;
+    background: #0f3d1e;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  }

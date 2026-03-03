@@ -1,0 +1,38 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 14px;
+    margin-top: 20px;
+  }
+  
+  .card {
+    border: 1px solid #e6e6e6;
+    border-radius: 12px;
+    padding: 10px;
+    background: white;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .card p {
+    font-size: 12px;
+    margin-top: 8px;
+  }
+  
+  .back {
+    margin-top: 20px;
+    padding: 8px 14px;
+    border-radius: 10px;
+    border: 1px solid #0f3d1e;
+    background: #0f3d1e;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: #b00020;
+  }
